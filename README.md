@@ -1,0 +1,2 @@
+# SyncGoogleSheet
+Read through all the rows and add/update database. Database is attached.  Steps:  Get a record from the Excel  Check is the record exists in products table (Using title), if not  Add title, description to product table  Add cost, stock etc to variant table  If exists, use sku and check the record exists in variant table. If sku not exists,  Add the variant to variant table  If record is present update cost, sale price, price in the variant table
